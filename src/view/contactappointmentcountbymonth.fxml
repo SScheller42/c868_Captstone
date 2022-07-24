@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ContactAppointmentCountController">
+    <children>
+        <TableView fx:id="tableViewMaster" prefHeight="340.0" prefWidth="600.0">
+            <columns>
+                <TableColumn fx:id="tableColumnContactName" prefWidth="175.0" text="C1" />
+                <TableColumn fx:id="tableColumnMonth" minWidth="0.0" prefWidth="230.0" text="C2" />
+                <TableColumn fx:id="tableColumnCount" minWidth="0.0" prefWidth="194.0" text="C2" />
+            </columns>
+        </TableView>
+        <Button fx:id="buttonExit" layoutX="522.0" layoutY="355.0" mnemonicParsing="false" text="Exit" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="26.0" />
+    </children>
+</AnchorPane>

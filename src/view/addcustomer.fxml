@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddCustomerController">
+    <children>
+        <TextField fx:id="textFieldName" AnchorPane.topAnchor="15.0" />
+        <Label fx:id="labelName" text="Name Placeholder" AnchorPane.topAnchor="0.0" />
+        <Label fx:id="labelPhone" text="Phone Placeholder" AnchorPane.topAnchor="50.0" />
+        <TextField fx:id="textFieldPhone" AnchorPane.topAnchor="65.0" />
+        <Label fx:id="labelAddress" text="Address Placeholder" AnchorPane.topAnchor="100.0" />
+        <TextField fx:id="textFieldAddress" AnchorPane.topAnchor="115.0" />
+        <Label fx:id="labelPostalCode" text="Postal Code Placeholder" AnchorPane.topAnchor="150.0" />
+        <TextField fx:id="textFieldPostalCode" AnchorPane.topAnchor="165.0" />
+        <Label fx:id="labelFLD" text="FLD Placeholder" AnchorPane.topAnchor="250.0" />
+        <ComboBox fx:id="comboCountry" prefWidth="150.0" AnchorPane.topAnchor="215.0" />
+        <Label fx:id="labelCountry" text="Country" AnchorPane.topAnchor="200.0" />
+        <ComboBox fx:id="comboFirstLevelDivision" prefWidth="150.0" AnchorPane.topAnchor="265.0" />
+        <Label fx:id="labelInfo" AnchorPane.topAnchor="300.0" />
+        <Button fx:id="buttonSubmit" mnemonicParsing="false" AnchorPane.leftAnchor="175.0" AnchorPane.topAnchor="15.0" />
+        <Button fx:id="buttonClear" mnemonicParsing="false" AnchorPane.leftAnchor="175.0" AnchorPane.topAnchor="45.0" />
+        <Button fx:id="buttonCancel" mnemonicParsing="false" AnchorPane.leftAnchor="175.0" AnchorPane.topAnchor="75.0" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.EditCustomerController"
+            prefHeight="425.0" prefWidth="820.0">
+    <children>
+        <TextField fx:id="textFieldId" disable="true" editable="false" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="30.0" />
+        <TextField fx:id="textFieldName" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="80.0" />
+        <TextField fx:id="textFieldPhone" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="130.0" />
+        <TextField fx:id="textFieldAddress" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="180.0" />
+        <TextField fx:id="textFieldPostalCode" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="230.0" />
+        <ComboBox fx:id="comboCountry" prefWidth="150.0" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="280.0" />
+        <ComboBox fx:id="comboFirstLevelDivision" prefWidth="150.0" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="330.0" />
+        <Button fx:id="buttonUpdate" layoutX="650.0" layoutY="393.0" mnemonicParsing="false" text="UPH" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="365.0" />
+        <Button fx:id="buttonDelete" layoutX="747.0" layoutY="365.0" mnemonicParsing="false" text="DPH" AnchorPane.leftAnchor="750.0" AnchorPane.topAnchor="365.0" />
+        <TableView fx:id="tableviewCustomer" onMouseClicked="#onCustomerTableClicked" prefHeight="200.0" prefWidth="600.0" AnchorPane.topAnchor="0.0">
+            <columns>
+                <TableColumn fx:id="tableColumnId" prefWidth="63.0" text="C1" />
+                <TableColumn fx:id="tableColumnName" prefWidth="88.0" text="C2" />
+                <TableColumn fx:id="tableColumnAddress" prefWidth="74.0" text="Column X" />
+                <TableColumn fx:id="tableColumnPostalCode" prefWidth="75.0" text="Column X" />
+                <TableColumn fx:id="tableColumnPhone" prefWidth="102.0" text="Column X" />
+                <TableColumn fx:id="tableColumnFLD" prefWidth="86.0" text="Column X" />
+                <TableColumn fx:id="tableColumnCountry" prefWidth="111.0" text="Column X" />
+            </columns>
+        </TableView>
+        <Label fx:id="labelId" text="ID Placeholder" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="15.0" />
+        <Label fx:id="labelName" text="Name Placeholder" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="65.0" />
+        <Label fx:id="labelPhone" text="Phone Placeholder" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="115.0" />
+        <Label fx:id="labelAddress" text="Address Placeholder" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="165.0" />
+        <Label fx:id="labelPostalCode" text="Postal Code Placeholder" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="215.0" />
+        <Label fx:id="labelFLD" text="FLD Placeholder" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="315.0" />
+        <Label fx:id="labelCountry" text="Country Placeholder" AnchorPane.leftAnchor="650.0" AnchorPane.topAnchor="265.0" />
+        <Label fx:id="labelInfo" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="300.0" />
+    </children>
+</AnchorPane>
+

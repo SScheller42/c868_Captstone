@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="820.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ContactScheduleController">
+    <children>
+        <TableView fx:id="tableViewMaster" prefHeight="340.0" prefWidth="800.0">
+            <columns>
+                <TableColumn fx:id="tableColumnId" prefWidth="107.0" text="C1" />
+                <TableColumn fx:id="tableColumnTitle" minWidth="0.0" prefWidth="118.0" text="C2" />
+                <TableColumn fx:id="tableColumnDescription" minWidth="0.0" prefWidth="121.0" text="C2" />
+                <TableColumn fx:id="tableColumnType" minWidth="0.0" prefWidth="121.0" text="C2" />
+                <TableColumn fx:id="tableColumnStart" minWidth="0.0" prefWidth="121.0" text="C2" />
+                <TableColumn fx:id="tableColumnEnd" minWidth="0.0" prefWidth="121.0" text="C2" />
+                <TableColumn fx:id="tableColumnCustomerId" minWidth="0.0" prefWidth="90.0" text="C2" />
+            </columns>
+        </TableView>
+        <Button fx:id="buttonExit" layoutX="765.0" layoutY="393.0" mnemonicParsing="false" text="Exit" AnchorPane.bottomAnchor="32.0" AnchorPane.rightAnchor="20.0" />
+        <Label fx:id="labelContactId" text="Contact ID" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="340.0" />
+        <ComboBox fx:id="comboContactId" prefWidth="150.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="355.0" />
+    </children>
+</AnchorPane>
